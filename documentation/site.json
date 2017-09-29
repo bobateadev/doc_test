@@ -1,10 +1,40 @@
-{  
-  "api":{  
+{
+  "api":{
     "title":"API",
+    "sections":[
+      {
+        "title":"API",
+        "link":"/documentation/en/html/api/index_en.html"
+      }
+    ]
+  },
+  "advanced":{  
+    "title":"Advanced",
     "sections":[  
       {  
-        "title":"API Documentation",
-        "link":"/documentation/en/index.html"
+        "title":"Distributed Training on AWS with Kubernetes",
+        "link":"/documentation/en/html/howto/usage/k8s/k8s_en.html"
+      },
+      {  
+        "title":"Tune GPU Performance",
+        "link":"/documentation/en/html/howto/optimization/gpu_profiling_en.html"
+      }
+    ]
+  },
+  "getting_started":{  
+    "title":"Getting Started",
+    "sections":[  
+      {  
+        "title":"Overview",
+        "link":"/documentation/en/html/getstarted/index_en.html"
+      },
+      {  
+        "title":"Installation",
+        "link":"/documentation/en/html/getstarted/build_and_install/index_en.html"
+      },
+      {  
+        "title":"What's New",
+        "link":"/tutorial"
       }
     ]
   }
