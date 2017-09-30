@@ -10,14 +10,15 @@ git checkout origin develop
 git checkout origin v0.9.0
 ```
 
-### 2)  Pull PaddlePaddle.org image
+### 2)  Run startup script.  **NOTE:**  Make sure you have Docker installed.
 
 ```
-docker pull nguyenthuan/paddlepaddle.org:test
+cd doc_test
+./start.sh
 ```
 
-### 3)  Run PaddlePaddle.org with doc_test dir as the volume
+### 3)  To stop docker server, run the stop script
 
 ```
-docker run -d -p 8000:8000 -e ENV=development -e SECRET_KEY="secret" -v <PATH_OF_DOC_TEST>:/var/content nguyenthuan/paddlepaddle.org:test
+./stop.sh
 ```
